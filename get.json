@@ -1,0 +1,5 @@
+{
+  "sensor": "HC-SR04", 
+  "unidades": "Centimetros", 
+  "variable": "Distancia"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "fecha": "2019-08-23 00:20:50", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 24, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-23 04:53:30", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 23, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-23 10:32:13", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 12, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-23 17:24:10", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 50, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-23 21:21:21", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 43, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-24 01:58:27", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 24, 
+    "variable": "Distancia"
+  }, 
+  {
+    "fecha": "2019-08-25 08:54:35", 
+    "sensor": "HC-SR04", 
+    "unidades": "Centimetros", 
+    "valor": 9, 
+    "variable": "Distancia"
+  }
+]
