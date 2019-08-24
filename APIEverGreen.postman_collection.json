@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "791fa45e-ec5a-437a-9a46-3fe6451385ee",
+		"name": "APIEverGreen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetModa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones/moda",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones",
+						"media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"fecha\": \"2019-08-23 00:20:50",\r\n    \"sensor\": \"HC-SR04\",\r\n    \"unidades\": \"Centimetros\",\r\n    \"valor\": 24,\r\n    \"variable\": \"Distancia\"\r\n  }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
